@@ -1,0 +1,55 @@
+verbos http
+
+http define un conjunto de metodos de verbos o acicones que indica 
+que tipo de accion queremos realizar sobre una url determinada
+
+caracteristicas sobre los verbos http
+
+segura - lectura:
+se realiza sin modificar el servidor
+
+idempotentes - 
+POST
+realizar la misma accion varias veces seguidas y el estado del servidor siga igual
+
+cacheables
+guarda el resultado 
+
+
+GET - lectura
+POST - cacheable
+PUT - idempotentes
+DELETE - cacheable
+
+
+codigos de respuestas
+
+el protocolo http define peticiones y respuestas
+ej: cliente pide una peticion de algun recurso y el servidor responde en consecuencia
+
+estados de respuestas
+
+codigos informativos de 100 - 199
+respuestas satisfactorias 200 - 299
+redirecciones 300 - 399
+errores de clientes 400 - 499
+errores de los servidores 500 -599
+
+
+
+que es la autenticacion
+
+es el nombre todo el flujo de proceso para determianr quien es el usuario
+que hace la accion
+
+autorizacion determina si un usuario puede o no realizar la accion
+autenticacion determina quien es el usuario
+
+
+jsonWebToken
+es un estandar que nos permite codificar informacion de usuario en un string
+
+
+code
+firefox
+

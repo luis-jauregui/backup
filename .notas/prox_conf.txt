@@ -1,0 +1,9 @@
+home 50 
+root 92
+swap 4g - 8g
+
+150g para linux
+
+
+330g para windows
+1TB windows documentos

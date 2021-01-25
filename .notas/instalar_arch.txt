@@ -1,0 +1,52 @@
+bootear usb con arch linux  (usb 1gb minimo)
+
+asegurar que tu particion EFI tenga 30.4mb
+
+En caso no la tenga, formatear particion EFI y particion del sistema operativo
+*guardar juegos y documentos importantes en disco d*
+
+instalar arch linux segun la guia (kernel linux)
+
+descargar los drivers en la pagina de nvidia 
+https://www.nvidia.com/en-us/geforce/drivers/
+
+detener servicio de lightdm systemctl stop lightdm
+detener servicio de xorg ctrl + alt + F2
+
+asignarle permisos al driver con tu usuario y root
+sudo su
+chmod +x Nvidia....
+
+ejecutar driver nvidia
+./Nvidia.....
+
+*en caso en la instalación nvidia te pide bloquear determinado programa hacerlo
+y reiniciar para volver a ejecutar el driver
+
+Luego eliminar archivo que bloquea programa para no interrumpir ejecucion de lightdm*
+
+
+instalar drivers de intel
+sudo pacman -S intel-compute-runtime xf86-video-intel xf96-video-nouveau
+
+cambiar configuracion de nvidia
+openGL-settings en image-settings cambiar a perfomance
+
+xserver-display-configuration habilitart force-composition pipeline
+https://www.youtube.com/watch?v=0Ux9bz_Tfw0
+
+
+
+descargar gestor de paquetes yay
+
+yay -S update-grub
+cambiar a root con sudo sud
+update-grub
+
+reiniciar sistema 
+
+listo!
+
+
+
+
