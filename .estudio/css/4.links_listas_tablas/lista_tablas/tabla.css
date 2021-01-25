@@ -1,0 +1,28 @@
+body {
+   background-color: #eee;
+}
+
+table {
+   width: 100%;
+   background-color: white;
+   /*indicar que no tendra bordes*/
+   border-collapse: collapse;
+}
+
+/*selecciona cierto tipo de hijos*/
+/*selecionar filas de manera para o impar*/
+tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
+
+td {
+   border: 1px solid #ddd;
+   padding: 8px;
+}
+
+table th {
+   background-color: #4caf50;
+   padding: 12px 8px 12px 8px;
+   color: white;
+   text-align: left;
+}

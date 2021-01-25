@@ -1,0 +1,34 @@
+.caja {
+   background-color: #fff;
+   border-width: 1px;
+
+   border-style: solid;
+   border-color: #ccc;
+   border-radius: 2px;
+   border-top: solid 0px;
+}
+
+.header {
+   padding: 10px;
+   border-top: solid 1px #eee;
+}
+
+.contenido {
+   padding: 10px;
+   border-top: solid 1px #eee;
+}
+
+.footer {
+   padding: 10px;
+   border-top: solid 1px #eee;
+}
+
+.btn {
+   border: 0px;
+   padding: 5px;
+   border-radius: 2px;
+}
+
+.primario {
+   background-color: #0090ff;
+}

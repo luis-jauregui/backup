@@ -1,0 +1,30 @@
+body {
+   background-color: #eee;
+}
+
+.clase {
+   /*margin separa la caja de div de la caja de body*/
+   /*margin borde invisible se bordeando el contenido por fuera */
+   margin: 8px;
+
+   /*padding bordeando el contenido por dentro*/
+   padding: 8px;
+   background-color: #ff0;
+
+   /*borde visible entre el margin y el padding*/
+   /*indicar estilo de borde*/
+   /*border: style width color*/
+   border-style: solid;
+   border-width: 8px;
+   border-color: #faa;
+
+   /*redondear bordes*/
+   border-radius: 4px;
+
+   /*definir el ancho de la caja*/
+   height: 100px;
+   width: 100px;
+
+   /*color del texto dentro del elemento html*/
+   color: #5757;
+}

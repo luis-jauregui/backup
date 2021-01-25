@@ -1,0 +1,50 @@
+body {
+   background-color: #eee;
+}
+
+p {
+   /*fuente de letra*/
+   font-family: 'Times New Roman';
+
+   /*estilo de fuente*/
+   font-style: italic;
+
+   /*tama;o de fuente*/
+   font-size: 20px;
+
+   /*ancho de fuente*/
+   font-weight: 900; /*maxima*/
+
+   color: #222fff;
+   /*alineacion del texto*/
+   /*default : left*/
+   text-align: left;
+
+   /*indentacion */
+   text-indent: 15px;
+
+   /*altura de las lineas del texto*/
+   line-height: 1.7;
+
+   /*agrega espacio entre palabras*/
+   word-spacing: 10px;
+
+   /*sombra*/
+   text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+a {
+   /*agregar decoracion al texto */
+   text-decoration: none;
+   /*text-decoration: overline;*/
+   /*text-decoration: line-through;*/
+   /*text-decoration: underline;*/
+
+   /*cambiar a mayuscula o minuscula*/
+   /*text-transform: uppercase;*/
+   /*text-transform: lowercase;*/
+   text-transform: capitalize;
+
+   /*separa entre letras */
+   letter-spacing: 3px;
+}

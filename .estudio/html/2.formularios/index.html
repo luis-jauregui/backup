@@ -1,0 +1,55 @@
+<!--indice que usaremos la version 5 de html -->
+<!DOCTYPE html>
+<!-- se agrega contenido en html -->
+<html>
+<!--tipo de etiqueta para incluir archivos como css js-->
+
+<head>
+   <title>Pagina web</title>
+</head>
+
+<body>
+   <!--forma basica de pedir datos al usuario-->
+   <form>
+      <!--agrupar etiquetas en un cuadro-->
+      <fieldset>
+         <!--agregar texto al cuadro de fieldset-->
+         <legend>Datos personales</legend>
+
+         <!--se utiliza para asignar una etiqueta a los inputs-->
+         <label>Edad</label>
+
+         <!--se utiliza para escribir solo numeros en el input-->
+         <!--atributo placeholder agregar texto en el input-->
+         <input type="number" placeholder="Edad..." />
+         <br />
+         <!--se utiliza para ocultar el texto -->
+         <label>Constrasena</label>
+         <input type="password" />
+         <br />
+         <!--por defecto-->
+         <label for="nombre">Nombre</label>
+         <input type="text" id="nombre" />
+         <br />
+         <!--se utiliza para enviar el valor de fomulario-->
+         <input type="submit" value="Aceptar" />
+
+         <!--se utiliza para ingresar mas texto -->
+         <textarea></textarea>
+
+         <!--mismo proposito que el submit-->
+         <button>Aceptar</button>
+
+         <!--se utiliza para mostrar opciones para seleccionar-->
+         <select>
+            <!--opciones-->
+            <!--value indice el valor que contiene cuando sea seleccionado-->
+            <option value="armin">Armin</option>
+            <option value="eren">Eren</option>
+            <option value="mikasa">Mikasa</option>
+         </select>
+      </fieldset>
+   </form>
+</body>
+
+</html>

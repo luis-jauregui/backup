@@ -1,0 +1,37 @@
+body {
+   background-color: #eee;
+   font-size: 20px;
+}
+
+/*estados del link*/
+
+a {
+   color: hotpink;
+   background-color: #f00;
+   border: solid 1px #d00;
+   padding: 15px;
+   margin: 15px;
+   border-radius: 4px;
+}
+
+/*asignarle estilo al link */
+a:link {
+   color: pink;
+   text-decoration: none;
+}
+
+/*asignarle estilo al link cuando fue visitado*/
+a:visited {
+   color: white;
+}
+
+/*asignarle estilo al link cuando esta por ensima*/
+a:hover {
+   color: white;
+   background-color: #f55;
+}
+
+/*asignarle estilo al link cuando es clickeado*/
+a:active {
+   color: black;
+}

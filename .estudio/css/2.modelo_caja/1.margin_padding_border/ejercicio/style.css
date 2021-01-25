@@ -1,0 +1,28 @@
+.box {
+   margin: 10px;
+   border: #000 1px solid;
+   background: #f1f1f1;
+}
+
+.cabecera {
+   padding: 20px;
+   border-bottom: 1px #000 solid;
+
+}
+
+.contenido {
+   padding: 20px;
+   border-bottom: 1px #000 solid;
+}
+
+.buttons {
+   padding: 20px;
+   border-bottom: 1px #000 solid;
+
+}
+
+.btn {
+   padding: 10px;
+}
+
+
