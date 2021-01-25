@@ -1,0 +1,3 @@
+setxkbmap latam &
+nitrogen --restore &
+picom&
